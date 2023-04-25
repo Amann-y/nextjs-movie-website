@@ -8,6 +8,11 @@ const Herosection = ({ title, imgUrl }) => {
   return (
     <>
       <main className={herostyle.main_section}>
+        <marquee>
+          <h4 style={{ color: "red", fontSize: "1.5rem" }}>
+            Stand Together Against nazi ukraine & pro nazis
+          </h4>
+        </marquee>
         <div className={styles.container}>
           <div className={styles.grid_two_section}>
             <div className={herostyle.hero_content}>
